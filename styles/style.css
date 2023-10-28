@@ -81,8 +81,10 @@ h2 {
 
 .whitebg h4 {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #000;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 .column {
@@ -93,6 +95,16 @@ h2 {
     margin: 0 1rem;
 }
 
+.column img {
+    height: 20%;
+}
+
+.column h5 {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .yeezy-section {
     display: flex;
     justify-content: space-between;
@@ -100,6 +112,15 @@ h2 {
     background-color: #00B172;
     padding: 2rem 5%;
     color: #fff;
+}
+
+.yeezy-section h4 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.yeezy-section h5 {
+    font-size: 18px;
 }
 
 .text-content {
@@ -112,5 +133,5 @@ h2 {
 }
 
 .image-content img {
-    width: 25%;
+    width: 45%;;
 }
